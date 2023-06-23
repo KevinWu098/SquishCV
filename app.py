@@ -6,17 +6,12 @@ dataset = load_dataset("hamlegs/SquishmallowImages")
 
 images = dataset['train']
 image_list = [image_data['image'] for image_data in images]
-# print(image_list)
-
-# image_list = Load_Data().from_folder(['Squishmallow_Images'])
 
 st = Search_Setup(image_list=image_list, model_name='vgg19', pretrained=True)
 st.run_index()
 
 def imageSearch(image):
     similarImages = st.get_similar_images(image_path=image, number_of_images=1)
-    # print(similarImages)
-    # print(list(similarImages.values()))
     return list(similarImages.values())
 
 title = "Find Your Squishmallow 🧸"
