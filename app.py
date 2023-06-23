@@ -1,9 +1,13 @@
 from DeepImageSearch import Load_Data, Search_Setup
 import gradio as gr
+from datasets import load_dataset
 
-image_list = Load_Data().from_folder(['Squishmallow_Images'])
+dataset = load_dataset("hamlegs/SquishmallowImages")
 
-st = Search_Setup(image_list=image_list, model_name='vgg19', pretrained=True)
+image_list = dataset['train']
+image_list_files = [image_data['image'] for image_data in image_list]
+
+st = Search_Setup(image_list=image_list_files, model_name='vgg19', pretrained=True)
 st.run_index()
 
 def imageSearch(image):
