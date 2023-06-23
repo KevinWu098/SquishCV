@@ -7,7 +7,7 @@ A simple Computer Vision Image-Classification that compares an image to a databa
 </p>
 
 ## Introduction
-Computer Vision is rapidly being adopted and improved everyday with applications in countless industries like Self-Driving, Healthcare, Robotics, and even Retail.
+Computer Vision is rapidly being adopted and improved everyday with applications in countless industries like Healthcare, Automotive, Robotics, and even Retail.
 
 Yet, why not have a little fun and see which Squishmallow your pet resembles? Or how about a nice picture of yourself? Who knows, you might be an ["Austin The Avocado!"](https://squishmallowsquad.fandom.com/wiki/Austin)
 
