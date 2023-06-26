@@ -3,7 +3,7 @@
 A simple Computer Vision Image-Classification that compares an image to a database of Squishmallows 🧸 and finds the "perfect" match.
 
 <p align="center">
-  <img height=200 src="https://github.com/KevinWu098/SquishCV/assets/100006999/72d5b4d5-ae47-4761-96ac-d29bb046e650" alt="Person punching a Squishmallow'"
+  <img height=200 src="https://github.com/KevinWu098/SquishCV/assets/100006999/72d5b4d5-ae47-4761-96ac-d29bb046e650" alt="Person punching a Squishmallow"
 </p>
 
 ## Introduction
