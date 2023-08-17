@@ -29,7 +29,7 @@ Simply upload an image into the simple UI and SquishCV will respond with:
 ## Running SquishCV
 Access a live demo of SquishCV hosted on HuggingFace: [SquishCV](https://huggingface.co/spaces/hamlegs/SquishCV)
 
-You can also run a local version with the `gradio` and `DeepImageSearch` packages. This current version uses a [custom fork of DeepImageSearch](https://github.com/KevinWu098/DeepImageSearch) that allows the HuggingFace Spaces to run without EOF errors. But if you're only running it locally, `DeepImageSearch` will serve you well.
+You can also run a local version with the `gradio` and `DeepImageSearch` packages. This current version uses a [custom fork of DeepImageSearch](https://github.com/KevinWu098/DeepImageSearch) that allows the HuggingFace Spaces to run without EOF (End of File) errors. But if you're only running it locally, `DeepImageSearch` will serve you well.
 
 ## Built With:
 - Gradio
